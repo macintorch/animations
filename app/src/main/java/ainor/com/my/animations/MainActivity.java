@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView nexus = (ImageView) findViewById(R.id.nexus);
 
 
-        nexus.animate().rotation(180f).setDuration(2000);
+        nexus.animate().scaleX(0.5f).scaleY(0.5f).setDuration(2000);
 
 
 //        ImageView nexus1hand = (ImageView) findViewById(R.id.nexushand);
