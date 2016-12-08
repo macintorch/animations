@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView nexus = (ImageView) findViewById(R.id.nexus);
 
 
-        nexus.animate().translationXBy(-1000f).setDuration(2000);
+        nexus.animate().translationXBy(1000f).setDuration(2000);
 
 
 //        ImageView nexus1hand = (ImageView) findViewById(R.id.nexushand);
@@ -24,5 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView nexus = (ImageView) findViewById(R.id.nexus);
+
+
+        nexus.setTranslationX(-1000f);
     }
 }
